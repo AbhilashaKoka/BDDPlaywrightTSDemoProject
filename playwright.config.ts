@@ -35,7 +35,7 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter:[
     ['html'],
-   // ['allure-playwright'],
+   ['allure-playwright'],
     ['junit', { outputFile: 'test-results/e2e-junit-results.xml' }],
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
@@ -44,7 +44,7 @@ export default defineConfig({
    baseURL: 'https://restful-booker.herokuapp.com',
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     // trace: 'on',
-      trace: 'retain-on-failure',
+    trace: 'on',
     video:'on',
     screenshot: 'on',
     headless : false,
