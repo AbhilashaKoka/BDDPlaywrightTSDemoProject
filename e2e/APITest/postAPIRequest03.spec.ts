@@ -1,5 +1,5 @@
 import { test, expect} from '@playwright/test';
-import BookingAPIRequestBody from '../test-data/api-requests/booking_request_body.json';
+import BookingAPIRequestBody from '../../test-data/api-requests/booking_request_body.json';
 test('Create Post api request using static json file', async({request})=>{
   
   //Create POST API Request 

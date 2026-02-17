@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import{QATestData} from '../test-data/qa/google.json'
-import{StageTestData} from '../test-data/stage/google.json'
+import{QATestData} from '../../test-data/qa/google.json'
+import{StageTestData} from '../../test-data/stage/google.json'
 
 
 test.describe('Module1 Test',()=>{
