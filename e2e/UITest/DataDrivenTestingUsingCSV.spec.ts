@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import {parse} from 'csv-parse/sync'
 const records= parse (
-    fs.readFileSync(path.join(__dirname,"../test-data/qa/google.csv")),
+    fs.readFileSync(path.join(__dirname,"../../test-data/qa/google.csv")),
     {
         columns:true,
         skip_empty_lines:true
