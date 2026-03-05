@@ -1,5 +1,4 @@
- ==================================================================== 
-
+==================================================================== 
 What is Playwright? 
 ===============================================================================
 Playwright is an open‑source automation testing tool which is used for end-to-end modern web mobile applications in headed or headless mode.
@@ -41,7 +40,7 @@ Software Requirement:
 ===============================================================================================
 Node JS 
 Visual Studio Code (VS Code) 
-JavaScript 
+Typescript
 Operating System-Window/MAC/LINUX 
 Installing NodeJS Link: Node.js — Download Node.js®  
 Installing Visual Studio Code Link: Download Visual Studio Code - Mac, Linux, Windows 
@@ -50,11 +49,10 @@ Installing Playwright in VS code :
 =============================================================================================
 Step 1: create new empty folder 
 Step2: Navigate to that folder in VS code 
-Step3: Navigate to Extension Ctrl+shift+X and Type “Playwright Test for VS Code” 
+Step3: Navigate to Extension Ctrl+shift+X and Type cmd: Playwright Test for VS Code
 Step4: CTRL+Shift+P, enter “Install Playwright” 
 Step 5: Select Playwright configuration and click on “OK” 
-Step 6: Install Playwright & Select Configurations 
-npm init playwright@latest 
+Step 6: Install Playwright & Select Configurations cmd: npm init playwright@latest 
 Playwright will download the browsers needed as well as create the following files.
 node_modules- contains all .js files 
 Playwright.config.js-contains configuration for running test 
@@ -64,9 +62,9 @@ tests/ example.spec.js
 tests-examples/ demo-todo-app.spec.js 
 step7:Run Test-run test option on left side of test in file example.spec.js  
 Test Explorer:  Click on test explorer icon 
-Run Test on Google Chrome and Microsoft Edge Browsers:  
-step8:Recording Test in Visual Studio Code: 
-step9:Generate HTML Test Report: 
+Run Test on Google Chrome and Microsoft Edge Browsers 
+step8:Recording Test in Visual Studio Code
+step9:Generate HTML Test Report 
 ===========================================================================================
 Commonly used Terminologies in playwright Test: 
 ==============================================================================================
@@ -92,20 +90,13 @@ First Playwright Automation Test:
 ==================================================================================================
 Pick locator in Playwright: 
 =============================================================================================
-Install playwright using command prompt: 
-==============================================================================================
-Step 1: Enter ‘npm init playwright@latest’ 
-Step 2: Select Playwright configurations. 
-Run Test in Headless mode : 
-Step 1: Enter ‘npx playwright test –headless' 
-Run test in UI mode from CMD: 
-Step 1: Enter ‘npx playwright test –headed' 
-Run  Specific Playwright Spec File: 
-Step 1: Enter ‘npx playwright test –-headed demo.spec.js' 
-Run test on different  Browser: 
-Step 1: Enter ‘npx playwright test –project=chromiun' 
-Record Test Using CodeGen: 
-Step 1: Enter ‘npx playwright codegen' 
+Install playwright using command prompt: ‘npm init playwright@latest’ 
+Step 2: Select Playwright configurations.
+Run Test in Headless mode : ‘npx playwright test –headless' 
+Run test in UI mode from :  ‘npx playwright test –headed' 
+Run  Specific Playwright Spec File: ‘npx playwright test –-headed demo.spec.js' 
+Run test on different  Browser: ‘npx playwright test –project=chromiun' 
+Record Test Using CodeGen:‘npx playwright codegen' 
 Step2:Open Playwright inspector tool window 
 Step3:Open a Browser with  
 ==================================================================================================
