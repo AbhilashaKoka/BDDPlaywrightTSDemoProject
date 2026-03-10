@@ -31,7 +31,7 @@ test('concurrent login load test', async () => {
         await loginPage.loginToHomePage(username, password);
 
         // Assert some post-login signal
-        await expect(page).toHaveURL(/dashboard|home/i, { timeout: 15_000 });
+        await expect(page).toHaveURL(`https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index`, { timeout: 15_000 });
         await expect(page.locator('text=Welcome')).toBeVisible({ timeout: 10_000 });
 
         results.push({ i, ok: true, ms: Date.now() - started });
