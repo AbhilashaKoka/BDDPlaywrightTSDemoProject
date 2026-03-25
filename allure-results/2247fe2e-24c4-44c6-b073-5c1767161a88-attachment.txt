@@ -1,0 +1,13 @@
+Created Booking ID: 498
+Get Booking Response: {
+  firstname: 'sita',
+  lastname: 'Kumari',
+  totalprice: 1000,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: ''
+}
+Get Booking Status: 200
+Token Response Status: 200
+Generated Token: 0e3f9f294d6ca93
+PUT API Response Status: 200

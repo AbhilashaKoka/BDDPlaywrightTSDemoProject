@@ -1,0 +1,2 @@
+Testing location: new york, Center: undefined
+Testing location: los angeles, Center: undefined

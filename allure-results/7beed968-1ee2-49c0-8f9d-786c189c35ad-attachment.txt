@@ -1,0 +1,11 @@
+POST /booking response: {
+  bookingid: 3810,
+  booking: {
+    firstname: 'Viola',
+    lastname: 'Haag',
+    totalprice: 347,
+    depositpaid: true,
+    bookingdates: { checkin: '2026-03-23', checkout: '2026-03-28' },
+    additionalneeds: 'super bowls'
+  }
+}
